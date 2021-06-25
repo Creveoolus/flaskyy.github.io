@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Register Page{% endblock %}
+{% block content %}
+<div style="width: 500px; height: 350px; box-sizing: border-box; margin-bottom: 0px; margin-top: 50px; margin-right: 280px; margin-left: 319; padding-left: 16px; padding-right: 16px; margin: auto; padding-top: 50px;">
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="inputNickname">Nickname</label>
+      <input type="text" name="nn" class="form-control" id="nn" aria-describedby="nnHelp" placeholder="PineapplePizza8">
+      <small id="nnHelp" class="form-text describe">Must have 3-18 symbols.</small>
+    </div>
+    <div class="form-group">
+      <label for="inputEmail">Email address</label>
+      <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="example@example.com">
+      <small id="emailHelp" class="form-text describe">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword">Password</label>
+      <input type="password" name="password" class="form-control" id="password" aria-describedby="pwdHelp" placeholder="Password">
+      <small id="pwdHelp" class="form-text describe">Must have 8-16 symbols.</small>
+    </div>
+    <button type="submit" class="btn btn-success">Register</button>
+    <a href="/login"><button type="button" class="btn btn-outline-primary">Login</button></a>
+  </form>
+</div>
+{% endblock %}

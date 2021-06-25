@@ -1,0 +1,27 @@
+body {
+	background-color: rgb(92, 100, 107);
+	color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    text-align: center;
+    height: 90px;
+}
+
+.footer-no-dc {
+	color: rgb(83, 92, 102);
+}
+
+.login-nav-btn {
+	margin-left: 570px;
+}
+
+.describe {
+	color: rgb(177, 187, 196);
+}
